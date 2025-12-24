@@ -1,0 +1,70 @@
+{
+  "version": "1.0.0",
+  "dependencies": {
+    "rocks": {
+      "d1e689650eb84c296036a637146526081f36ef0bc2f8bde90a4fdddba7fc3706": {
+        "name": "inspect",
+        "version": "2.0-1",
+        "pinned": false,
+        "opt": false,
+        "dependencies": [],
+        "constraint": "==2.0",
+        "binaries": [],
+        "source": "luarocks_rockspec+https://luarocks.org/",
+        "source_url": {
+          "type": "url",
+          "url": "https://github.com/kikito/inspect.lua/archive/v2.0.0.tar.gz"
+        },
+        "hashes": {
+          "rockspec": "sha256-0/Wgxc30qMXAd+s9WgKOyhLSukWQ9GugFK+Ml9FMeqM=",
+          "source": "sha256-bCOW+CV6SDAsZePpXpMwbN295ffIGoWQFkurRyQ0AfQ="
+        }
+      },
+      "d528cd52981564259b873ae3f972f48a19522d775240465725a6434109336b92": {
+        "name": "argparse",
+        "version": "0.7.1-1",
+        "pinned": false,
+        "opt": false,
+        "dependencies": [],
+        "constraint": "==0.7.1",
+        "binaries": [],
+        "source": "luarocks_rockspec+https://luarocks.org/",
+        "source_url": {
+          "type": "url",
+          "url": "https://github.com/luarocks/argparse/archive/0.7.1.zip"
+        },
+        "hashes": {
+          "rockspec": "sha256-6EUIYsWhm29xlL8arP/3DQoRj/1CYWxs/J8+gz9T0YQ=",
+          "source": "sha256-AJ8n6HTxqHPeQd0NKHiyQLzZ63+ebDsO1uP+0f0vYUE="
+        }
+      },
+      "f7cec82a33fe7c2969cbb994410bff9c9505850b6e99a71bac1a3a9554b42db7": {
+        "name": "lua-cjson",
+        "version": "2.1.0.10-1",
+        "pinned": false,
+        "opt": false,
+        "dependencies": [],
+        "constraint": "==2.1.0",
+        "binaries": [
+          "json2lua",
+          "lua2json"
+        ],
+        "source": "luarocks_rockspec+https://luarocks.org/",
+        "source_url": {
+          "type": "git",
+          "url": "https://github.com/openresty/lua-cjson",
+          "ref": "2.1.0.10"
+        },
+        "hashes": {
+          "rockspec": "sha256-r+WGLILja827kVC0giYvUXOmvQeQhRb9bJN0cXA+Vxc=",
+          "source": "sha256-6m8cNI4TM3lzoh47CiohpQW4Lq0OTVR0fK+e087WDQ4="
+        }
+      }
+    },
+    "entrypoints": [
+      "d1e689650eb84c296036a637146526081f36ef0bc2f8bde90a4fdddba7fc3706",
+      "d528cd52981564259b873ae3f972f48a19522d775240465725a6434109336b92",
+      "f7cec82a33fe7c2969cbb994410bff9c9505850b6e99a71bac1a3a9554b42db7"
+    ]
+  }
+}
