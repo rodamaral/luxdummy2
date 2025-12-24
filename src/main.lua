@@ -3,7 +3,7 @@ local inspect = require("inspect")
 local cjson = require("cjson")
 
 return {
-    name = 'luxdummy2'
+    name = 'luxdummy2',
     _VERSION = "0.1.0",
     argparse = argparse,
     inspect = inspect,
