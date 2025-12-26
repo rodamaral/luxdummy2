@@ -46,8 +46,8 @@
         "dependencies": [],
         "constraint": "==2.1.0",
         "binaries": [
-          "lua2json",
-          "json2lua"
+          "json2lua",
+          "lua2json"
         ],
         "source": "luarocks_rockspec+https://luarocks.org/",
         "source_url": {
